@@ -1,0 +1,87 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page background */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* Title section */
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #00ffd5;
+}
+
+/* Main container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label */
+label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
+/* File input */
+input[type="file"] {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    color: #333333;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Button container */
+.button {
+    text-align: center;
+}
+
+/* Predict button */
+button {
+    background: linear-gradient(135deg, #00ffd5, #00bfa6);
+    color: #000000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+button:hover {
+    background: linear-gradient(135deg, #00bfa6, #00ffd5);
+    transform: scale(1.05);
+}
+
